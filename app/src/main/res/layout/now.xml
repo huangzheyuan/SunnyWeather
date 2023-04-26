@@ -5,10 +5,16 @@
     android:orientation="vertical"
     android:id="@+id/nowLayout">
     <FrameLayout
-        android:fitsSystemWindows="true"
         android:id="@+id/titleLayout"
         android:layout_width="match_parent"
         android:layout_height="70dp">
+        <Button
+            android:id="@+id/navBtn"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_home"/>
         <TextView
             android:id="@+id/placeName"
             android:layout_width="wrap_content"
